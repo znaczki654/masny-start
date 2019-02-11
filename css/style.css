@@ -15,3 +15,7 @@ body {
 .dropdown-menu {
     padding: 0;
 }
+.box {
+  background-color: #343a40;
+  font-size: 170%;
+}
