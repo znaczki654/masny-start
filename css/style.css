@@ -1,0 +1,17 @@
+body {
+    background-color: dimgray;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+.dropdown-toggle:after {
+    content: none
+}
+.navbar-brand {
+    font-size: 105%;
+}
+.dropdown-item:hover {
+    background: #7096F7;
+}
+.dropdown-menu {
+    padding: 0;
+}
