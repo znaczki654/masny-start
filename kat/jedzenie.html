@@ -13,6 +13,27 @@
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+    html {
+      width: 100vw;
+      height: 100vh;
+    }
+    body {
+      width: 100vw;
+      height: 100vh;
+      background: url(../zdjecia/jedzenie/jedzenie3.jpg);
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+    .opacitex-075 {
+      opacity: 0.75;
+    }
+    .opacitex1 {
+      opacity: 1;
+    }
+    </style>
 
 </head>
 
@@ -28,7 +49,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="../index.html">Strona główna</a>
                 </li>
                 <!-- DROPDOWN -->
@@ -37,7 +58,7 @@
                         Kategorie
                     </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="gry.html">Gry</a>
+                    <a class="dropdown-item active" href="gry.html">Gry</a>
                     <a class="dropdown-item" href="diy.html">Stwórz to sam</a>
                     <a class="dropdown-item" href="jedzenie.html">Jedzenie</a>
                     <a class="dropdown-item" href="technologia.html">Technologia</a>
@@ -56,9 +77,29 @@
                 </li>
 
 
+
             </ul>
         </div>
     </nav>
+
+    <div class="container-fluid">
+      <div class="row mt-5 opacitex-075">
+        <div class="col-4 text-center box lead">
+          <h2>Pizza</h2>
+        </div>
+        <div class="col-8 text-center box lead">
+          <h2>Pochodzenie: Włochy</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 box opacitex-075">
+          <p class="small mt-5">&nbsp;&nbsp;&nbsp;&nbsp;Potrawa kuchni włoskiej, obecnie szeroko rozpowszechniona na całym świecie. Jest to płaski placek z ciasta drożdżowego (focaccia), posmarowany sosem pomidorowym, posypany tartym serem mozzarella i ziołami, pieczony w bardzo mocno nagrzanym piecu. Pizzę podaje się na gorąco, lecz rozpowszechnione jest jedzenie jej również na zimno.</p>
+          <p class="small">&nbsp;&nbsp;&nbsp;&nbsp;Tradycyjnym miejscem spożywania pizzy są pizzerie, lokale gastronomiczne specjalizujące się w przyrządzaniu i serwowaniu pizzy.</p>
+        </div>
+      </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
