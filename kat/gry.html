@@ -15,14 +15,27 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <style>
     html {
-      width: 100vw;
+      width: 99.1vw;
       height: 100vh;
     }
     body {
-      width: 100vw;
+      width: 99.1vw;
+      height: 100vh;
+    }
+    .background1 {
+      width: 99.1vw;
       height: 100vh;
       background: url(../zdjecia/gry/jengabackground.jpg);
       background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+    .background2 {
+      width: 99.1vw;
+      height: 100vh;
+      background: url(../zdjecia/gry/gry2.jpg);
+      background-position: bottom;
       background-size: cover;
       background-repeat: no-repeat;
       z-index: -1;
@@ -38,6 +51,7 @@
 </head>
 
 <body>
+  <div class="background1">
     <!-- nav bar -->
     <nav class="sticky-top mb-0 navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">
@@ -91,6 +105,10 @@
           <p class="small mt-5">&nbsp;&nbsp;&nbsp;&nbsp;Jenga to drewniane klocki stworzone przez Lesliego Scotta. Później Hasbro zaczęło je produkować na skalę światową co spowodowało, że niebawem po tym klocki zostały okrzyknięte grą roku.</p>
         </div>
       </div>
+    </div>
+    </div>
+    <div class="background2">
+      <div>Bilard</div>
     </div>
 
 
