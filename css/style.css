@@ -19,3 +19,7 @@ body {
   background-color: #343a40;
   font-size: 170%;
 }
+.reset-links, .reset-links:hover, .reset-links:active, .reset-links:focus {
+    text-decoration: none;
+    color: black;
+}
