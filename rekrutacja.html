@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Masny start!</title>
+    <title>Masny start! - rekrutacja</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="icon" href="zdjecia/logodark.png">
     <link rel="stylesheet" href="css/style.css">
@@ -10,11 +10,11 @@
     <meta name="author" content="Jan Kustra & Jakub Szymański">
     <meta name="description" content="Wynalazki są naszą pasją, a ich rozprzestrzenianie naszym celem.">
     <meta name="keywords" content="wynalazki, inventions, wynalazek, invention">
+    <meta name="robots" content="all">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 </head>
 
 <body>
@@ -60,13 +60,16 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-8 mt-5">
+            <div class="col-6 mt-5">
                 <p>Imię i nazwisko:</p>
-                <input name="imie" type="text" style="width: 59.6rem;"><br><br>
+                <input name="imie" type="text" class="form-control"><br><br>
                 <p>Informacje o wynalazku:</p>
-                <textarea name="wiadomosc" rows="6" cols="100"></textarea>
+                <textarea rows="10" class="form-control" name="wiadomosc"></textarea><br><br>
+                <p>Adres email:</p>
+                <input name="email" type="text" class="form-control"><br><br>
+                <button class="btn btn-success">Wyślij formularz</button>
             </div>
-            <div class="col-3 text-left alert alert-info" style="margin-top: 7rem;">
+            <div class="col-3 text-left alert alert-info ml-auto mr-auto mt-3 mb-0">
                 <h3>Wskazówki:</h3>
                 <ul style="list-style: none;">
                     <li>- podaj swoje dane osobowe oraz kontakt</li>
